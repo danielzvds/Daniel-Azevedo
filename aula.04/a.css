@@ -1,0 +1,78 @@
+.corpo{
+    background-color: rgb(6, 30, 61);
+    padding: 10px;
+}
+.painel1{
+    border: 10px solid rgb(9, 105, 89);
+    display: flex;
+    text-align: left;
+    background-color: rgb(39, 115, 117);
+    height: 350px;
+    overflow: auto;
+    padding: 30px;
+}
+.img1{
+   
+    margin-top: 10px;
+    border: 7px solid #6b0000;
+    margin-left    : 10px;
+}
+.img2 {
+    margin-top: 10px;
+    border: 7px solid #6b0000;
+    margin-right: 10px; 
+    margin-left: 10px; 
+    float: right; 
+}
+.img3 {
+    margin-top: 10px;
+    border: 7px solid #6b0000;
+    float: center;
+}
+
+
+.allp{
+    display: flex;
+    color: bisque;
+    font-style: italic;
+    font-size: 15px;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px   ;
+}
+.painel2{
+    border: 10px solid rgb(9, 105, 89);   
+    background-color: rgb(35, 158, 107);
+    height: 350px;
+    padding: 30px;
+}
+.painel3 {
+    border: 10px solid rgb(9, 105, 89);
+    text-align: left;
+    background-color: rgb(61, 226, 212);
+    height: 350px;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;       /* Espaço entre as imagens */
+}
+.rodape {
+    border: 10px solid rgb(9, 105, 89);
+    background-color: rgb(6, 30, 61); /* mesma cor do .corpo */
+    height: 100px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rodapetexto {
+    color: bisque;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+
